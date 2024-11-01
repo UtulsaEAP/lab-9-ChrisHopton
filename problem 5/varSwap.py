@@ -1,5 +1,13 @@
 def swap_values(user_val1, user_val2, user_val3, user_val4):   
-   #write your code here
+   
+   user_val1 = user_val1 + user_val2
+   user_val2 = user_val1 - user_val2
+   user_val1 = user_val1 - user_val2
+   
+   user_val3 = user_val3 + user_val4
+   user_val4 = user_val3 - user_val4
+   user_val3 = user_val3 - user_val4
+   
    
    return user_val1, user_val2, user_val3, user_val4
 
